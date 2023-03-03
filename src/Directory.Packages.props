@@ -1,0 +1,42 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--Compile-time dependencies-->
+    <PackageVersion Include="Fody" Version="6.6.4"/>
+    <PackageVersion Include="InlineIL.Fody" Version="1.7.4"/>
+    <PackageVersion Include="Microsoft.SourceLink.GitHub" Version="1.1.1" />
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.1.118"/>
+  </ItemGroup>
+  <ItemGroup>
+    <!--System packages-->
+    <PackageVersion Include="System.Collections.Immutable" Version="7.0.0" />
+    <PackageVersion Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+    <PackageVersion Include="System.IO.Pipelines" Version="7.0.0" />
+    <PackageVersion Include="System.Resources.Extensions" Version="7.0.0"/>
+    <PackageVersion Include="System.Runtime.Caching" Version="7.0.0" />
+    <PackageVersion Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0"/>
+    <PackageVersion Include="System.Threading.Channels" Version="7.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--Microsoft packages-->
+    <PackageVersion Include="Microsoft.AspNetCore.Connections.Abstractions" Version="6.0.13" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.3" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+    <PackageVersion Include="Microsoft.IO.RecyclableMemoryStream" Version="2.2.1" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--Misc packages-->
+    <PackageVersion Include="BenchmarkDotNet" Version="0.13.3" />
+    <PackageVersion Include="FastMember.Signed" Version="1.5.0" />
+    <PackageVersion Include="xunit" Version="2.4.2" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.5"/>
+    <PackageVersion Include="coverlet.collector" Version="3.2.0"/>
+  </ItemGroup>
+</Project>
